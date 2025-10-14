@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A huevo mi chavo🐐</title>
+  <meta name="description" content="Simple billboard." />
+  <style>
+    :root {
+      --bg: #000000;
+      --fg: #ffffff;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+                   "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700; /* bold */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .line {
+      font-size: clamp(28px, 6vw, 72px); /* same sizing as before */
+      line-height: 1.05;
+      letter-spacing: 0.2px;
+      margin: 0;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main" aria-label="Message">
+    <h1 class="line">A huevo mi chavo🐐</h1>
+  </main>
+</body>
+</html>
